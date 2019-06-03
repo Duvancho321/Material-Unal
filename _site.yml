@@ -1,0 +1,20 @@
+name: "Material"
+output_dir: "."
+navbar:
+  title: "Material Unal Med"
+  left:
+    - text: "Home"
+      href: index.html
+  right:
+    - icon: fa-github
+      href: https://github.com/Duvancho321
+    #- icon: fa-instagram
+     # href: f
+    #- icon: ion-social-twitter
+     # href: f
+output:
+  html_document:
+    theme: cerulean
+    highlight: kate
+    df_print: paged
+    css: estilo.css 

@@ -1,0 +1,11 @@
+---
+title: "Material de estudio Unal Med"
+---
+  
+## Estadistica 1 
+
+<li value="1"> Apuntes estadistica 1 <a href="Resumen Estadistica 1.pdf" class="download" title="Apuntes"_blank"> (Descargar)</a> </li>
+
+<li value="1"> Simulacros solucionados estadistica 1 <a href="Simulacros Estadistica.pdf" class="download" title="Simulacros"_blank"> (Descargar)</a> </li>
+
+## Estadistica 2 
