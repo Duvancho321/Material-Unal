@@ -1,5 +1,5 @@
 ---
-title: "Material"
+title: ""
 ---
 
 # {.tabset .tabset-fade .tabset-pills}
