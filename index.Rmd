@@ -1,13 +1,34 @@
 ---
-title: "Material de estudio Unal Med"
+title: "Material Cursos Unal Med"
 ---
 
-#Contenidos Unal Medellin {.tabset .tabset-fade .tabset-pills}
-  
-## Estadistica 1 
+Este sitio contiene información de algunos cursos de la universidad nacional sede Medellín, el material dado está sujeto a errores semánticos, procedimentales y a la interpretación del interesado.  
 
-<li value="1"> Apuntes estadistica 1 <a href="Resumen Estadistica 1.pdf" class="download" title="Apuntes"_blank"> (Descargar)</a> </li>
+<br>
+<br>
 
-<li value="1"> Simulacros solucionados estadistica 1 <a href="Simulacros Estadistica.pdf" class="download" title="Simulacros"_blank"> (Descargar)</a> </li>
+<center>
+![](Portada.png)
+</center>
 
-## Estadistica 2 
+
+<div align="right"> 
+<br/>
+<right> 
+<!-- hitwebcounter Code START -->
+<a href="http://www.hitwebcounter.com" target="_blank">
+<img src="http://hitwebcounter.com/counter/counter.php?page=7106121&style=0038&nbdigits=7&type=page&initCount=0" title="Must See Places In Paris" Alt="Must See Places In Paris"   border="0" >
+</a>                                        <br/>
+                                        <!-- hitwebcounter.com --><a href="http://www.hitwebcounter.com" title="" 
+                                        target="_blank" style="font-family: ; 
+                                        font-size: px; color: #; text-decoration:  ;"
+                                        </right>
+                                        </a>
+                                        <br/>
+                                        </div> 
+
+
+
+
+
+                            

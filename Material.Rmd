@@ -1,0 +1,37 @@
+---
+title: "Material"
+---
+
+# {.tabset .tabset-fade .tabset-pills}
+  
+## Matematicas
+
+- **General**
+    - Pasaporte: <a href="Pasaporte.pdf" class="download" title="Pasaporte"_blank"> Descarga</a>
+    
+<br>
+
+- **Calculo Integral**
+    - Apuntes: <a href="Resumen CI.pdf" class="download" title="Resumen CI"_blank"> Descarga</a>
+    
+<br>
+
+- **Ecuaciones Diferenciales**
+    - Apuntes: <a href="Resumen ED.pdf" class="download" title="Resumen ED"_blank"> Descarga</a>
+
+## Estadistica 
+
+- **Estadistica 1**
+    - Apuntes: <a href="Resumen est.pdf" class="download" title="Apuntes"_blank"> Descarga</a>
+    - Solucion Simulacros: <a href="Simulacros est.pdf" class="download" title="Simulacros"_blank"> Descarga</a> 
+    - Guia Para trabajos: <a href="Trabajos est.pdf" class="download" title="Trabajos"_blank"> Descarga</a> 
+    - Resumen Parcial 2: <a href="Parcial 2 est.pdf" class="download" title="Parcial 2"_blank"> Descarga</a> 
+
+<br>
+
+- **Estadistica 2**
+
+
+
+
+
