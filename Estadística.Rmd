@@ -1,0 +1,25 @@
+---
+title: ''
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    toc_depth: 3
+    df_print: paged
+    css: estilo.css
+---
+<br>
+
+# **Estadistica 1**
+
+El material puede presentar errores, por favor sea crítico con él.
+
+- Apuntes: <a href="Resumen est.pdf" class="download" title="Apuntes"_blank"> Descarga</a>
+- Solucion Simulacros: <a href="Simulacros est.pdf" class="download" title="Simulacros"_blank"> Descarga</a> 
+- Guia Para trabajos: <a href="Trabajos est.pdf" class="download" title="Trabajos"_blank"> Descarga</a> 
+- Resumen Parcial 2: <a href="Parcial 2 est.pdf" class="download" title="Parcial 2"_blank"> Descarga</a> 
+
+<br>
+
+# **Estadistica 2**
+

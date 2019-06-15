@@ -7,6 +7,13 @@ navbar:
       href: index.html
     - text: "Material"
       href: Material.html
+      menu:
+        - text: "Estadística"
+          href: Estadística.html
+        - text: "Matemáticas"
+          href: Matemáticas.html
+        - text: "Química"
+
   right:
     - icon: fa-github
       href: https://github.com/Duvancho321
@@ -14,9 +21,10 @@ navbar:
      # href: f
     #- icon: ion-social-twitter
      # href: f
+
 output:
   html_document:
-    theme: cerulean
+    theme: cosmo
     highlight: kate
     df_print: paged
-    css: estilo.css 
+    css: estilo.css

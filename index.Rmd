@@ -1,15 +1,38 @@
 ---
 title: "Material Cursos Unal Med"
+output:
+  html_document:
+    df_print: paged
+    css: estilo.css
 ---
 
 Este sitio contiene información de algunos cursos de la universidad nacional sede Medellín, el material dado está sujeto a errores semánticos, procedimentales y a la interpretación del interesado.  
 
-<br>
-<br>
+<body>
+<div aling="left">
+<left>
 
+Recursos        | Enlace        |
+:------------- | :------------- |
+Artículos        | https://sci-hub.se/  |
+Libros y mas    | http://libgen.io/ |
+
+</left>
+</div>
+
+
+
+<div aling="center">
 <center>
+
 ![](Portada.png)
+
 </center>
+</div>
+
+</body>
+
+
 
 
 <br>

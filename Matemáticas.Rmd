@@ -1,0 +1,24 @@
+---
+title: ""
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    toc_depth: 3
+    df_print: paged
+    css: estilo.css
+---
+<br>
+
+# **General**
+- Pasaporte: <a href="Pasaporte.pdf" class="download" title="Apuntes"_blank"> Descarga</a>
+
+<br>
+
+# **Calculo Integral**
+- Apuntes: <a href="Resumen CI.pdf" class="download" title="Apuntes"_blank"> Descarga</a>
+
+<br>
+
+# **Ecuaciones Diferenciales**
+- Apuntes: <a href="Resumen ED.pdf" class="download" title="Apuntes"_blank"> Descarga</a>
