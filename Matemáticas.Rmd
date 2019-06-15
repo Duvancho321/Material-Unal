@@ -8,7 +8,19 @@ output:
     df_print: paged
     css: estilo.css
 ---
+
 <br>
+
+# **Recursos**
+
+Recurso        | Enlace        | Descripción
+:------------- | :------------- | :-------------
+Desmos       | https://www.desmos.com/  | Calculadora Grafica
+Mathway     | https://www.mathway.com/es/BasicMath |   Solucionar Ecuaciones
+Wolfram     | https://www.wolframalpha.com/ |   Solucionar Ecuaciones
+Symbolab     |https://es.symbolab.com/ |   Solucionar Ecuaciones
+Slader    |https://www.slader.com/ |   Solucionarios Libros
+
 
 # **General**
 - Pasaporte: <a href="Pasaporte.pdf" class="download" title="Pasaporte"_blank"> Descarga</a>
@@ -27,6 +39,7 @@ output:
 - Solucion Taller 10: <a href="ST 10 ED.pdf" class="download" title="Taller 10"_blank"> [2018_S1]</a>
 - Solucion Taller 11: <a href="ST 11 ED.pdf" class="download" title="Taller 11"_blank"> [2018_S1]</a>
 - Solucion Taller 12: <a href="ST 12 ED.pdf" class="download" title="Taller 12"_blank"> [2018_S1]</a>
+- Solucionario Ecuaciones Diferenciales Dennis G Zill 8th: [Enlace](https://www.slader.com/textbook/9781133492467-differential-equations-with-boundary-value-problems-international-edition-8th-edition/)
 
 
 # **Calculo en Varias Variables**
