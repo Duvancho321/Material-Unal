@@ -9,7 +9,7 @@ output:
 <br>
 
 <center>
-_“El diseño, propiedad y autoría de los parciales, talleres y/o trabajos suministrados es propiedad de la Universidad Nacional de Colombia sede Medellín”_
+_“El diseño, propiedad y autoría de los parciales, simulacros, talleres y/o trabajos suministrados es propiedad de la Universidad Nacional de Colombia sede Medellín”_
 </center>
 
 <br>
