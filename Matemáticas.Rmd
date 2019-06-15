@@ -38,7 +38,7 @@ output:
 - Solucionario Multivariable Stewart 7th: [Enlace](https://www.slader.com/textbook/9780538497879-stewart-multivariable-calculus-7th-edition/)
 
 
-
+-**geom**
 
 
 
