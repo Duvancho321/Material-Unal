@@ -1,0 +1,44 @@
+---
+title: ""
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    toc_depth: 3
+    df_print: paged
+    css: estilo.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<br>
+
+#**Recursos de información**
+
+Recursos        | Enlace        |
+:------------- | :------------- |
+Artículos        | <a href="https://sci-hub.se/" target="_blank">Sci-Hub</a>|  
+Libros y mas    | <a href="http://libgen.io/" target="_blank">LibGen</a>|
+
+
+
+
+<br>
+
+#**Recursos para estudiantes**
+
+El software a continuación tiene licencia gratis para estudiantes o es software libre.
+
+Recurso        | Enlace        | Descripción
+:------------- | :-------------: | :------------- 
+Autocad | <a href="https://www.autodesk.mx/education/free-software/autocad" target="_blank"><i class="fas fa-edit"></i></a> | Diseño
+Civil 3D | <a href="https://www.autodesk.mx/education/free-software/autocad-civil-3d" target="_blank"><i class="fas fa-screwdriver"></i></a> | Diseño
+Inventor | <a href="https://www.autodesk.mx/education/free-software/inventor-professional" target="_blank"><i class="fas fa-wrench"></i></a> | Diseño
+Libre Office    | <a href="https://es.libreoffice.org/descarga/libreoffice/" target="_blank"><i class="far fa-file"></i></a> | Paquete de edición 
+Office 365     | <a href="https://products.office.com/es/student/office-in-education" target="_blank"><i class="fab fa-windows"></i></a> | Paquete de edición 
+OpenOffice    | <a href="https://www.openoffice.org/es/descargar/" target="_blank"><i class="fas fa-folder-open"></i></a> |   Paquete de edición
+Phyton &nbsp; <i class="fab fa-python"></i> | <a href="https://www.python.org/downloads/windows/" target="_blank"><i class="fab fa-microsoft"></i></a>   &nbsp;  <a href="https://www.python.org/downloads/mac-osx/" target="_blank"><i class="fab fa-apple"></i></a> &nbsp; <a href="https://www.python.org/downloads/source/" target="_blank"><i class="fab fa-linux"></i></a> | Programación
+<i class="fab fa-r-project"></i>  | <a href="https://cran.r-project.org/bin/windows/base/old/" target="_blank"><i class="fab fa-microsoft"></i></a>   &nbsp;  <a href="https://cran.r-project.org/bin/macosx/el-capitan/base/" target="_blank"><i class="fab fa-apple"></i></a> |   Programación Estadística
+R studio | <a href="https://www.openoffice.org/es/descargar/" target="_blank"><i class="fas fa-registered"></i></a> |  Interfaz &nbsp; <i class="fab fa-r-project"></i>

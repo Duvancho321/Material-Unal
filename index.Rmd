@@ -1,12 +1,7 @@
 ---
 title: "Material Cursos Unal Med"
-output:
-  html_document:
-    df_print: paged
-    css: estilo.css
+output:  html_document
 ---
-
-<br>
 
 <center>
 _“El diseño, propiedad y autoría de los parciales, simulacros, talleres y/o trabajos suministrados es propiedad de la Universidad Nacional de Colombia sede Medellín”_
@@ -16,22 +11,11 @@ _“El diseño, propiedad y autoría de los parciales, simulacros, talleres y/o 
 
 Este sitio contiene información de algunos cursos de la universidad nacional sede Medellín, el material dado está sujeto a errores semánticos, procedimentales y a la interpretación del interesado.  
 
-Recursos        | Enlace        |
-:------------- | :------------- |
-Artículos        | https://sci-hub.se/  |
-Libros y mas    | http://libgen.io/ |
-
-
-
 <center>
 
 ![](Portada.png)
 
 </div>
-
-
-<br>
-<br>
 
 
 <div align="right"> 

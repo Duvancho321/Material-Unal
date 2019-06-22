@@ -1,10 +1,12 @@
 name: "Material"
 output_dir: "."
 navbar:
-  title: "Material Unal Med"
   left:
     - text: "Home"
+      icon: fa-home
       href: index.html
+    - text: "Recursos"
+      href: Recursos.html
     - text: "Material"
       href: Material.html
       menu:
@@ -13,7 +15,6 @@ navbar:
         - text: "Matemáticas"
           href: Matemáticas.html
         - text: "Química"
-
   right:
     - icon: fa-github
       href: https://github.com/Duvancho321

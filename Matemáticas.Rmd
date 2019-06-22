@@ -15,16 +15,18 @@ output:
 
 Recurso        | Enlace        | Descripción
 :------------- | :------------- | :-------------
-Desmos       | https://www.desmos.com/  | Calculadora Grafica
-Mathway     | https://www.mathway.com/es/BasicMath |   Solucionar Ecuaciones
-Wolfram     | https://www.wolframalpha.com/ |   Solucionar Ecuaciones
-Symbolab     |https://es.symbolab.com/ |   Solucionar Ecuaciones
-Slader    |https://www.slader.com/ |   Solucionarios Libros
+Desmos       | <a href="https://www.desmos.com/" target="_blank">https://www.desmos.com</a> | Calculadora Grafica
+Mathway     | <a href="https://www.mathway.com/es/BasicMath" target="_blank">https://www.mathway.com</a> | Solucionar Ecuaciones
+Wolfram     | <a href="https://www.wolframalpha.com/" target="_blank">https://www.wolframalpha.com</a> |   Solucionar Ecuaciones
+Symbolab     |<a href="https://es.symbolab.com/" target="_blank">https://es.symbolab.com</a> |   Solucionar Ecuaciones
+Slader    | <a href="https://www.slader.com/" target="_blank">https://www.slader.com</a> |   Solucionarios Libros
+
+
 
 
 # **General**
 - Pasaporte: <a href="Pasaporte.pdf" class="download" title="Pasaporte"_blank"> Descarga</a>
-- Solucionario Stewart 8th: [Enlace](https://www.slader.com/textbook/9781285741550-stewart-calculus-early-transcendentals-8th-edition/)
+- Solucionario Stewart 8th: <a href="https://www.slader.com/textbook/9781285741550-stewart-calculus-early-transcendentals-8th-edition/" target="_blank">Enlace</a>
 
 <br>
 
@@ -39,8 +41,7 @@ Slader    |https://www.slader.com/ |   Solucionarios Libros
 - Solucion Taller 10: <a href="ST 10 ED.pdf" class="download" title="Taller 10"_blank"> [2018_S1]</a>
 - Solucion Taller 11: <a href="ST 11 ED.pdf" class="download" title="Taller 11"_blank"> [2018_S1]</a>
 - Solucion Taller 12: <a href="ST 12 ED.pdf" class="download" title="Taller 12"_blank"> [2018_S1]</a>
-- Solucionario Ecuaciones Diferenciales Dennis G Zill 8th: [Enlace](https://www.slader.com/textbook/9781133492467-differential-equations-with-boundary-value-problems-international-edition-8th-edition/)
-
+- Solucionario Ecuaciones Diferenciales Dennis G Zill 8th: <a href="https://www.slader.com/textbook/9781133492467-differential-equations-with-boundary-value-problems-international-edition-8th-edition/" target="_blank">Enlace</a>
 
 # **Calculo en Varias Variables**
 - Parciales $\;2^{do}$ corte: <a href="Par 2 VV.pdf" class="download" title="Parciales_2"_blank"> Descarga</a>
@@ -48,7 +49,6 @@ Slader    |https://www.slader.com/ |   Solucionarios Libros
 - Solucion Taller 10: <a href="ST 10 VV.pdf" class="download" title="Taller 10"_blank"> [2018_S1]</a>
 - Solucion Taller 11: <a href="ST 11 VV.pdf" class="download" title="Taller 11"_blank"> [2018_S1]</a>
 - Solucion Taller 12: <a href="ST 12 VV.pdf" class="download" title="Taller 12"_blank"> [2018_S1]</a>
-- Solucionario Multivariable Stewart 7th: [Enlace](https://www.slader.com/textbook/9780538497879-stewart-multivariable-calculus-7th-edition/)
-
+- Solucionario Multivariable Stewart 7th: <a href="https://www.slader.com/textbook/9780538497879-stewart-multivariable-calculus-7th-edition/" target="_blank">Enlace</a>
 
 
