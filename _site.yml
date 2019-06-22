@@ -6,9 +6,11 @@ navbar:
       icon: fa-home
       href: index.html
     - text: "Recursos"
+      icon: fa-link
       href: Recursos.html
     - text: "Material"
       href: Material.html
+      icon: fa-book
       menu:
         - text: "Estadística"
           href: Estadística.html
