@@ -15,7 +15,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 <br>
 
-#**Recursos de información**
+# **Recursos de información**
 
 Recursos        | Enlace        |
 :------------- | :------------- |
@@ -27,12 +27,13 @@ Libros y mas    | <a href="http://libgen.io/" target="_blank">LibGen</a>|
 
 <br>
 
-#**Recursos para estudiantes**
+# **Recursos para estudiantes**
 
 El software a continuación tiene licencia gratis para estudiantes o es software libre.
 
 Recurso        | Enlace        | Descripción
 :------------- | :-------------: | :------------- 
+Anaconda | <a href="https://www.anaconda.com/distribution/" target="_blank"><i class="fas fa-circle-notch"></i> | Distribuidor  &nbsp; <i class="fab fa-r-project"></i> &nbsp; <i class="fab fa-python"></i>
 Autocad | <a href="https://www.autodesk.mx/education/free-software/autocad" target="_blank"><i class="fas fa-edit"></i></a> | Diseño
 Civil 3D | <a href="https://www.autodesk.mx/education/free-software/autocad-civil-3d" target="_blank"><i class="fas fa-screwdriver"></i></a> | Diseño
 Inventor | <a href="https://www.autodesk.mx/education/free-software/inventor-professional" target="_blank"><i class="fas fa-wrench"></i></a> | Diseño
