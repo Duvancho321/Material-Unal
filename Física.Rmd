@@ -1,0 +1,27 @@
+---
+title: ""
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    toc_depth: 3
+    df_print: paged
+    css: estilo.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<br>
+
+# **Física Mecánica**
+- Taller 1 - Estática: <a href="TALLER 1 FM.pdf" class="download" title="Taller 1"target="_blank"> Descarga</a>
+- Taller 2 - Dinámica: <a href="TALLER 2 FM.pdf" class="download" title="Taller 2"target="_blank"> Descarga</a>
+- Taller 3 - Trabajo Y Energía: <a href="TALLER 3 FM.pdf" class="download" title="Taller 3"target="_blank"> Descarga</a>
+- Taller 4 - Dinámica Partículas Y Cuerpos Rígidos: <a href="TALLER 4 FM.pdf" class="download" title="Taller 4"target="_blank"> Descarga</a>
+- Solucionario Ecuaciones Serway 9th: <a href="https://www.slader.com/textbook/9781133947271-physics-for-scientists-and-engineers-with-modern-physics-ninth-edition/" target="_blank">Enlace</a>
+
+
+
+
