@@ -11,7 +11,7 @@
 
 
 
-<title>Material Cursos Unal Med</title>
+<title>Química.utf8</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -19,6 +19,9 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/pagedtable-1.1/css/pagedtable.css" rel="stylesheet" />
 <script src="site_libs/pagedtable-1.1/js/pagedtable.js"></script>
@@ -155,6 +158,101 @@ $(document).ready(function () {
 
 
 
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+  padding-left: 25px;
+  text-indent: 0;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
 
 
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
@@ -220,25 +318,51 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Material Cursos Unal Med</h1>
 
 </div>
 
 
-<center>
-<em>“El diseño, propiedad y autoría de los parciales, simulacros, talleres y/o trabajos suministrados es propiedad de la Universidad Nacional de Colombia sede Medellín”</em>
-</center>
 <p><br></p>
-<p>Este sitio contiene información de algunos cursos de la universidad nacional sede Medellín, el material dado está sujeto a errores semánticos, procedimentales y a la interpretación del interesado.</p>
-<center>
-<p><img src="Portada.png" /></p>
+<div id="recursos-y-curiosidades" class="section level1">
+<h1><strong>Recursos Y Curiosidades</strong></h1>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Recurso</th>
+<th align="left">Enlace</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Compoundchem</td>
+<td align="left"><a href="https://www.compoundchem.com/" target="_blank" title="Curiosidades">www.compoundchem.com</a></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
 </div>
-<div align="right">
-<br/> <right> <!-- hitwebcounter Code START --> <a href="http://www.hitwebcounter.com" target="_blank"> <img src="http://hitwebcounter.com/counter/counter.php?page=7106121&style=0038&nbdigits=7&type=page&initCount=0" title="Must See Places In Paris" Alt="Must See Places In Paris"   border="0" > </a> <br/> <br/>
+<div id="quimica-general" class="section level1">
+<h1><strong>Química General</strong></h1>
+<ul>
+<li>Solucionario Química Raymond Chang 10th: <a href="https://www.slader.com/textbook/9780073511092-chemistry-10th-edition/" target="_blank">Enlace</a></li>
+<li>Solucionario Química General Petrucci 10th: <a href="https://www.slader.com/textbook/9780132064521-general-chemistry-principles-and-modern-applications-tenth-edition/" target="_blank">Enlace</a></li>
+<li>Solucionario Química Brown 12th: <a href="https://www.slader.com/textbook/9780321696724-chemistry-the-central-science-12th-edition/" target="_blank">Enlace</a></li>
+</ul>
+<p><br></p>
+</div>
+<div id="quimica-organica" class="section level1">
+<h1><strong>Química orgánica</strong></h1>
+<ul>
+<li>Solucionario Química Orgánica McMurry 8th: <a href="https://www.slader.com/textbook/9780840054449-organic-chemistry-8th-edition/" target="_blank">Enlace</a></li>
+<li>Solucionario Química Orgánica Paula Yurkanis 8th: <a href="https://www.slader.com/textbook/9780134042282-organic-chemistry-8th-edition/" target="_blank">Enlace</a></li>
+<li>Solucionario Química Orgánica L.G. Wade Jr 8th: <a href="https://www.slader.com/textbook/9780321768414-organic-chemistry-eigth-edition/" target="_blank">Enlace</a></li>
+</ul>
 </div>
 
 
 
+</div>
+</div>
 
 </div>
 

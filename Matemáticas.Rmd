@@ -16,17 +16,18 @@ output:
 Recurso        | Enlace        | Descripción
 :------------- | :------------- | :-------------
 Desmos       | <a href="https://www.desmos.com/" target="_blank">https://www.desmos.com</a> | Calculadora Grafica
+Geogebra    | <a href="https://www.geogebra.org/graphing?lang=es" target="_blank">https://www.geogebra.org</a> | Calculadora Grafica
 Mathway     | <a href="https://www.mathway.com/es/BasicMath" target="_blank">https://www.mathway.com</a> | Solucionar Ecuaciones
-Wolfram     | <a href="https://www.wolframalpha.com/" target="_blank">https://www.wolframalpha.com</a> |   Solucionar Ecuaciones
 Symbolab     |<a href="https://es.symbolab.com/" target="_blank">https://es.symbolab.com</a> |   Solucionar Ecuaciones
-Slader    | <a href="https://www.slader.com/" target="_blank">https://www.slader.com</a> |   Solucionarios Libros
+Wolfram     | <a href="https://www.wolframalpha.com/" target="_blank">https://www.wolframalpha.com</a> |   Solucionar Ecuaciones
 
-
-
+<br>
 
 # **General**
 - Pasaporte: <a href="Pasaporte.pdf" class="download" title="Pasaporte"target="_blank"> Descarga</a>
 - Solucionario Stewart 8th: <a href="https://www.slader.com/textbook/9781285741550-stewart-calculus-early-transcendentals-8th-edition/" target="_blank">Enlace</a>
+- Introducción elemental de Wolfram Matemática: <a href="https://www.wolfram.com/language/elementary-introduction/2nd-ed/" target="_blank" title="Libro online">Enlace</a>
+- Guía rápida para programadores Wolfram Matemática: <a href="http://www.wolfram.com/language/fast-introduction-for-programmers/es/?source=footer" target="_blank" title="Libro online">Enlace</a>
 
 <br>
 
@@ -42,6 +43,8 @@ Slader    | <a href="https://www.slader.com/" target="_blank">https://www.slader
 - Solucion Taller 11: <a href="ST 11 ED.pdf" class="download" title="Taller 11"target="_blank"> [2018_S1]</a>
 - Solucion Taller 12: <a href="ST 12 ED.pdf" class="download" title="Taller 12"target="_blank"> [2018_S1]</a>
 - Solucionario Ecuaciones Diferenciales Dennis G Zill 8th: <a href="https://www.slader.com/textbook/9781133492467-differential-equations-with-boundary-value-problems-international-edition-8th-edition/" target="_blank">Enlace</a>
+
+<br>
 
 # **Calculo en Varias Variables**
 - Parciales $\;2^{do}$ corte: <a href="Par 2 VV.pdf" class="download" title="Parciales_2"target="_blank"> Descarga</a>

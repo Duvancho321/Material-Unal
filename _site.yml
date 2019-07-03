@@ -17,6 +17,7 @@ navbar:
         - text: "Matemáticas"
           href: Matemáticas.html
         - text: "Química"
+          href: Química.html
   right:
     - icon: fa-github
       href: https://github.com/Duvancho321

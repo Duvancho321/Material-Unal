@@ -19,10 +19,10 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Recursos        | Enlace        |
 :------------- | :------------- |
-Artículos        | <a href="https://sci-hub.se/" target="_blank">Sci-Hub</a>|  
-Libros y mas    | <a href="http://libgen.io/" target="_blank">LibGen</a>|
-
-
+Artículos Científicos | <a href="https://sci-hub.se/" target="_blank" title="Busque con DOI o link">Sci-Hub</a>|  
+Libros, Manuales y Más    | <a href="http://libgen.io/" target="_blank" title="Busque por nombre y/o autor">LibGen</a>|
+Solucionarios de Libros Online  | <a href="https://www.slader.com/" target="_blank" title="Busque por nombre y/o autor">Slader</a> |
+Videos Y Documentales | <a href="https://video.alexanderstreet.com/wayf?redirect=wayf" target="_blank" title="Regístrese con el correo institucional">Alexanderstreet</a>|
 
 
 <br>
@@ -34,12 +34,42 @@ El software a continuación tiene licencia gratis para estudiantes o es software
 Recurso        | Enlace        | Descripción
 :------------- | :-------------: | :------------- 
 Anaconda | <a href="https://www.anaconda.com/distribution/" target="_blank"><i class="fas fa-circle-notch"></i> | Distribuidor  &nbsp; <i class="fab fa-r-project"></i> &nbsp; <i class="fab fa-python"></i>
-Autocad | <a href="https://www.autodesk.mx/education/free-software/autocad" target="_blank"><i class="fas fa-edit"></i></a> | Diseño
-Civil 3D | <a href="https://www.autodesk.mx/education/free-software/autocad-civil-3d" target="_blank"><i class="fas fa-screwdriver"></i></a> | Diseño
-Inventor | <a href="https://www.autodesk.mx/education/free-software/inventor-professional" target="_blank"><i class="fas fa-wrench"></i></a> | Diseño
+Autocad | <a href="https://www.autodesk.mx/education/free-software/autocad" target="_blank"  title="Regístrese con el correo institucional"><i class="fas fa-edit"></i></a> | Diseño
+Civil 3D | <a href="https://www.autodesk.mx/education/free-software/autocad-civil-3d" target="_blank" title="Regístrese con el correo institucional"><i class="fas fa-screwdriver"></i></a> | Diseño
+Inventor | <a href="https://www.autodesk.mx/education/free-software/inventor-professional" target="_blank" title="Regístrese con el correo institucional"><i class="fas fa-wrench"></i></a> | Diseño
 Libre Office    | <a href="https://es.libreoffice.org/descarga/libreoffice/" target="_blank"><i class="far fa-file"></i></a> | Paquete de edición 
-Office 365     | <a href="https://products.office.com/es/student/office-in-education" target="_blank"><i class="fab fa-windows"></i></a> | Paquete de edición 
+Office 365     | <a href="https://products.office.com/es/student/office-in-education" target="_blank" title="Ingrese con el correo institucional"><i class="fab fa-windows"></i></a> | Paquete de edición 
 OpenOffice    | <a href="https://www.openoffice.org/es/descargar/" target="_blank"><i class="fas fa-folder-open"></i></a> |   Paquete de edición
 Phyton &nbsp; <i class="fab fa-python"></i> | <a href="https://www.python.org/downloads/windows/" target="_blank"><i class="fab fa-microsoft"></i></a>   &nbsp;  <a href="https://www.python.org/downloads/mac-osx/" target="_blank"><i class="fab fa-apple"></i></a> &nbsp; <a href="https://www.python.org/downloads/source/" target="_blank"><i class="fab fa-linux"></i></a> | Programación
 <i class="fab fa-r-project"></i>  | <a href="https://cran.r-project.org/bin/windows/base/old/" target="_blank"><i class="fab fa-microsoft"></i></a>   &nbsp;  <a href="https://cran.r-project.org/bin/macosx/el-capitan/base/" target="_blank"><i class="fab fa-apple"></i></a> |   Programación Estadística
-R studio | <a href="https://www.openoffice.org/es/descargar/" target="_blank"><i class="fas fa-registered"></i></a> |  Interfaz &nbsp; <i class="fab fa-r-project"></i>
+R studio | <a href="https://www.rstudio.com/products/rstudio/download/#download" target="_blank"><i class="fas fa-registered"></i></a> |  Interfaz &nbsp; <i class="fab fa-r-project"></i>
+Wolfram Matemática   | <a href="http://intranetserver.medellin.unal.edu.co/portal/intranet/Wolfram" target="_blank" title="Busque Instrucciones para estudiantes"><i class="fas fa-infinity"></i></a> | Computación técnica
+
+<br>
+
+# **Grupos de Whatsapp** &nbsp; <i class="fab fa-whatsapp"></i>
+
+Materia        | Enlace        | 
+:------------- | :-------------: |
+Geometría Analítica Y Vectorial| <a href="https://chat.whatsapp.com/BeomdFUAMPL5KkBn6wFjzY" target="_blank">[1]</a>
+Calculo Diferencial| <a href="https://chat.whatsapp.com/DO596VRhJjGDT9yCOQDgy8" target="_blank">[1]</a> 
+Álgebra Lineal| <a href="https://chat.whatsapp.com/LxIHGXNdqYMDzrJtYzOsMT" target="_blank">[1]</a>
+Calculo Integral| <a href="https://chat.whatsapp.com/3nrcHBTLj1B5YgrZBZDGur" target="_blank">[1]</a> &nbsp; <a href="https://chat.whatsapp.com/1HH5VVZxgE2IDG5qGF8rI2" target="_blank">[2]</a>
+Calculo en varias variables| <a href="https://chat.whatsapp.com/FPjRrqekanYGe0plqojerS" target="_blank">[1]</a>
+Ecuaciones Diferenciales| <a href="https://chat.whatsapp.com/LTkgv2eGxJD5Td1ZyL6UGr" target="_blank">[1]</a>
+Matemáticas Discretas| <a href="https://chat.whatsapp.com/8qbcyhOrjbr8Gjf95X30ub" target="_blank">[1]</a>
+Matemáticas Especiales| <a href="https://chat.whatsapp.com/HPYYGKobI8bIVc1HjGpsEm" target="_blank">[1]</a>
+Métodos Numéricos| <a href="https://chat.whatsapp.com/KJE082zCGUcBzkDLPhX5FI" target="_blank">[1]</a>
+Estadística 1| <a href="https://chat.whatsapp.com/invite/L3O4nKEHkjk5bj9YCvCHk1" target="_blank">[1]</a>
+Física Mecánica| <a href="https://chat.whatsapp.com/9GdByJq08IKAJtMpoe3wOq" target="_blank">[1]</a>
+Fundamentos de Programación| <a href="https://chat.whatsapp.com/712Ull3n68i2NuGQjvRsYA" target="_blank">[1]</a>
+
+
+
+
+
+
+
+
+
+

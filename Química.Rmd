@@ -1,0 +1,41 @@
+---
+title: ""
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    toc_depth: 3
+    df_print: paged
+    css: estilo.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<br>
+
+
+# **Recursos Y Curiosidades**
+
+Recurso        | Enlace        | 
+:------------- | :------------- | 
+Compoundchem  | <a href="https://www.compoundchem.com/" target="_blank" title="Curiosidades">www.compoundchem.com</a>|
+
+<br>
+
+# **Química General**
+- Solucionario Química Raymond Chang 10th: <a href="https://www.slader.com/textbook/9780073511092-chemistry-10th-edition/" target="_blank">Enlace</a>
+- Solucionario Química General Petrucci 10th: <a href="https://www.slader.com/textbook/9780132064521-general-chemistry-principles-and-modern-applications-tenth-edition/" target="_blank">Enlace</a>
+- Solucionario Química Brown 12th: <a href="https://www.slader.com/textbook/9780321696724-chemistry-the-central-science-12th-edition/" target="_blank">Enlace</a>
+
+<br>
+
+# **Química orgánica**
+
+- Solucionario Química Orgánica McMurry 8th: <a href="https://www.slader.com/textbook/9780840054449-organic-chemistry-8th-edition/" target="_blank">Enlace</a>
+- Solucionario Química Orgánica Paula Yurkanis 8th: <a href="https://www.slader.com/textbook/9780134042282-organic-chemistry-8th-edition/" target="_blank">Enlace</a>
+- Solucionario Química Orgánica L.G. Wade Jr 8th: <a href="https://www.slader.com/textbook/9780321768414-organic-chemistry-eigth-edition/" target="_blank">Enlace</a>
+
+
+
