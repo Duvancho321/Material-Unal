@@ -12,6 +12,8 @@ navbar:
       href: Material.html
       icon: fa-book
       menu:
+        - text: "Economía"
+          href: Economía.html
         - text: "Estadística"
           href: Estadística.html
         - text: "Física"

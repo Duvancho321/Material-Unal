@@ -1,0 +1,21 @@
+---
+title: ''
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    toc_depth: 3
+    df_print: paged
+    css: estilo.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<br>
+
+# **Fundamentos de economía**
+
+- Solucionario Principios de Economía N.Gregory Mankiw 6th: <a href="https://www.slader.com/textbook/9780538453059-principles-of-economics-sixth-edition/" target="_blank">Enlace</a>
+
