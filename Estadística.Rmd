@@ -14,10 +14,10 @@ output:
 
 El material puede presentar errores, por favor sea crítico con él.
 
-- Apuntes: <a href="Resumen est.pdf" class= "download" title= "Apuntes" target="_blank" > Descarga </a>
-- Solucion Simulacros: <a href="Simulacros est.pdf" class="download" title="Simulacros"target="_blank"> Descarga</a> 
-- Guia Para trabajos: <a href="Trabajos est.pdf" class="download" title="Trabajos"target="_blank"> Descarga</a> 
-- Resumen Parcial 2: <a href="Parcial 2 est.pdf" class="download" title="Parcial 2"target="_blank"> Descarga</a> 
+- Apuntes: <a href="Documentos/Resumen est.pdf" class= "download" title= "Apuntes" target="_blank" > Descarga </a>
+- Solucion Simulacros: <a href="Documentos/Simulacros est.pdf" class="download" title="Simulacros"target="_blank"> Descarga</a> 
+- Guia Para trabajos: <a href="Documentos/Trabajos est.pdf" class="download" title="Trabajos"target="_blank"> Descarga</a> 
+- Resumen Parcial 2: <a href="Documentos/Parcial 2 est.pdf" class="download" title="Parcial 2"target="_blank"> Descarga</a> 
 -  Solucionario Probabilidad y Estádistica Jay L. Devore 8th: <a href="https://www.slader.com/textbook/9780538733526-probability-and-statistics-for-engineering-and-the-sciences-8th-edition/" target="_blank">Enlace</a>
 
 <br>

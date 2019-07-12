@@ -25,6 +25,10 @@ navbar:
   right:
     - icon: fa-github
       href: https://github.com/Duvancho321
+    - icon: far fa-comments
+      text: "Foro"
+      target : "_blank"
+      href: http://material-unal-med.155653.n8.nabble.com/
     #- icon: fa-instagram
      # href: f
     #- icon: ion-social-twitter
