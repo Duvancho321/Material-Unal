@@ -1,0 +1,1529 @@
+---
+title: ''
+output:
+  html_document:
+    toc: true
+    toc_float:
+      smooth_scroll: false
+      collapsed: false
+    toc_depth: 3
+    df_print: paged
+    css: estilo.css
+    #code_folding: hide
+---
+
+```{r setup, include=FALSE,}
+knitr::opts_chunk$set(echo = TRUE,
+                      eval = FALSE)
+```
+
+<br>
+
+# **Fundamentos de programación**
+
+## VPL {.tabset .tabset-pills}
+
+### Semana 00
+
+- 0.01 Aprender a programar es simple.
+```{r,eval=FALSE}
+print ("Hola mundo")
+```
+
+- 0.02 Volumen de la esfera.
+```{r, eval=FALSE}
+radio = int(input ("Radio"))
+volumen = (radio**3) * 3.14 * (4/3)
+print ("%.2f"% volumen)
+```
+
+- 0.03 Hipotenusa de un triángulo rectángulo.
+```{r,eval=FALSE}
+c1 = int(input (""))
+c2 = int(input (""))
+h = ((c1**2)+(c2**2))**(1/2)
+print ("%.1f"% h)
+```
+
+- 0.04 Área de un cilindro.
+```{r,eval=FALSE}
+h = int(input ("altura: "))
+r = int(input ("radio : "))
+A = 2 * 3.14 * r * (h + r)
+print ("%.2f"% A)
+```
+
+- 0.05 Promedio de notas.
+```{r,eval=FALSE}
+a = float(input ("1:"))
+b = float(input ("2:"))
+c = float(input ("3:"))
+d = float(input ("4:"))
+e = float(input ("5:"))
+p = (a+b+c+d+e)/5
+print("%.1f"% p)
+```
+
+- 0.06 Distancia entre dos puntos.
+```{r}
+x1 = float(input (""))
+y1 = float(input (""))
+x2 = float(input (""))
+y2 = float(input (""))
+d = (((x2-x1)**2)+((y2-y1)**2))**(1/2)
+print ("%.2f"% d)
+```
+
+- 0.07 Transformar una lista.
+```{r}
+v1 = input ("")
+v2 = input ("")
+v3 = input ("")
+l1 = [v3,v1,v2,v3,v1,v2,v3]
+print (l1)
+```
+
+- 0.08 Diferencia de áreas.
+```{r}
+l1 = int(input (""))
+l2 = int(input (""))
+a1 = l1**2
+a2 = l2**2
+d = a1-a2
+l = [a1,a2,d]
+print (l)
+```
+
+- 0.09 Promedio de una lista.
+```{r}
+a = float(input (""))
+v1 = 83+a
+v2 = 45+a
+v3 = 64+a
+b1 = round (v1, 2)
+b2 = round (v2, 2)
+b3 = round (v3, 2)
+l = [b1,b2,b3]
+p = (v1+v2+v3)/3
+q = round (p, 2)
+l2 = l + [q]
+print (l2)
+```
+
+- 0.10 Promedio de notas de un trabajo.
+```{r}
+a = float(input (""))
+b = float(input (""))
+c = float(input (""))
+d = float(input (""))
+e = float(input (""))
+l1 = [a,b,c,d,e]
+p = (a+b+c+d+e)/5
+q = round (p,2)
+l2 = l1 + [q]
+print(l2)
+```
+
+- 0.11 Transformar un diccionario de datos.
+```{r}
+o1 = input ("")
+v1 = input ("")
+o2 = input ("")
+v2 = input ("")
+d = {o1:v1,o2:v2}
+print (o2, d [o2])
+```
+
+### Semana 01
+- 1.00 Producción de camisas.
+```{r}
+a = int(input (""))
+b = int(input (""))
+c = a*b
+d = a*20000     
+e = c - d
+print (e)
+```
+
+- 1.01 Calcular propina.
+```{r}
+a = float(input (""))
+b = float(input (""))
+c = (a*b)/100
+d = round (c,2)
+print (d)
+```
+
+- 1.02 Consumo de combustible.
+```{r}
+a = float(input (""))
+b = float(input (""))
+c = (3*b)+(0.02*a*b) 
+d = round (c,2)
+print (d)
+```
+
+- 1.03 Lote de puertas.
+```{r}
+a = int (input (""))
+d = 0.014*a*180000
+print (d)
+```
+
+- 1.04 Costo consumo de agua.
+```{r}
+a = int (input (""))
+b = round(((a*45.6*1000)/12),2)
+print (b)
+```
+
+- 1.05 Tiempos en procesos de producción.
+```{r}
+a = int (input (""))
+b = [(a*420),(int((a*420)/(4*a)))]
+print (b)
+```
+
+- 1.06 Factura de compra.
+```{r}
+i = float (input (""))
+com = int (100000)
+beb = int (30000)
+icom = round ((i*com),2)
+ibeb = round ((i*beb),2)
+tsi = com + beb
+ti = ibeb +icom
+t = tsi+ti
+dic = {"comida":[com,icom],"bebida":[beb,ibeb]}
+print ("costo impuestos")
+print (com, icom)
+print (beb,ibeb)
+print (tsi,ti)
+print ("total a pagar:", t)
+```
+
+- 1.07 Aporte por apartamento.
+```{r}
+a = float (input(""))
+b = a/13
+c = [[101,5,round((b*5),2)],[201,1,round((b),2)],[301,3,round((b*3),2)],[401,4,round((b*4),2)]]
+print (c[0])
+print (c[1])
+print (c[2])
+print (c[3])
+```
+
+- 1.08 Promedio consumo de agua.
+```{r}
+a = int (input(""))
+p = round ((((a*20)+(a*10)+(a*14))/3),2)
+print ("casa metroscubicos costo")
+print ("casa101",20,(a*20))
+print ("casa106",10,(a*10))
+print ("casa102",14,(a*14))
+print ("promedio", p)
+```
+
+### Semana 02
+
+- 2.00 Identificar el tipo de dato.
+```{r}
+a =  int (input (""))
+b =  float (input (""))
+c =  input ("")
+print ("Numero entero", a)
+print ("Numero real", b)
+print ("BooLeano", c)
+```
+
+- 2.01 Identificar el número mayor.
+```{r}
+a = int (input(""))
+b = int (input(""))
+if (a > b):
+    print (True)
+else:
+    print (False) 
+```
+
+- 2.02 Identificar máximo, mínimo, y valor absoluto.
+```{r}
+a = int (input (""))
+b = int (input (""))
+c = int (input (""))
+d = [a,b,c]
+e = max (d)
+f = min (d)
+g = abs (c)
+print (e)
+print (f)
+print (g)
+```
+
+- 2.03 Áreas de triángulos.
+```{r}
+a = eval (input(""))
+for b in a: 
+   print (b)
+   b[2] = (b[0]*b[1])/2
+   print (b)
+```
+
+- 2.04 Volúmenes de pirámides.
+```{r}
+a = eval (input(""))
+b = (((a[0])**2)*(a[1]))/3
+b =  round (b,2)
+a.append(b) 
+print (a)
+```
+
+- 2.05 Intereses anuales.
+```{r}
+a = int (input(""))
+if (a > 10000000):
+    print (a*0.1)
+else:
+    print(0)
+```
+
+- 2.06 Aprobar o no una asignatura.
+```{r}
+a = float (input(""))
+b = float (input(""))
+c = float (input(""))
+d = (a+b+c)/3
+if (d>=3.0):
+    print ("aprobado")
+else:
+    print ("no aprobado")
+```
+
+- 2.07 Descuentos en librería.
+```{r}
+a = int (input(""))
+b = str (input(""))
+if (b == "estudiante"):
+    print (a*0.9)
+elif b == "profesor" :
+    print (a*0.8)
+else:
+    print (a)
+```
+
+- 2.08 Clasificar por índice de masa corporal (IMC).
+```{r}
+a = int (input(""))
+if (a<18):
+    print ("bajo peso")
+elif (a>25):
+    print ("sobrepeso")
+else:
+    print ("peso normal")
+```
+
+- 2.09 Crear una calculadora.
+```{r}
+a = str (input(""))
+b = int (input(""))
+c = int (input(""))
+if (a == "suma"):
+    d = (b+c)
+    d = round (d,2)
+    print (d)
+elif (a == "resta"):
+    e = (b-c)
+    e = round (e,2)
+    print (e)
+elif (a == "multiplicacion" ):
+    f = (b*c)
+    f = round (f,2)
+    print (f)
+elif (a == "division"):
+    g = (b/c)
+    g = round (g,2)
+    print (g)
+```
+
+- 2.10 Verificar si un número es capicúa.
+```{r}
+a = int (input(""))
+a = str (a)
+if (a==a[::-1]):
+    print ("es capicua")
+else:
+    print ("no es capicua")
+```
+
+- 2.11 Formación y clasificación de triángulos.
+```{r}
+a = int (input(""))
+b = int (input(""))
+c = int (input(""))
+if (a+b)<c or (b+c)<a or (c+a)<b:
+    print ("no se puede formar triangulo")
+elif (a == b and b == c):
+    print ("equilatero")
+elif (a == b) or (b == c) or (c == a) :
+    print ("isosceles")
+else:
+    print ("escaleno")
+```
+
+- 2.12 Clasificar números.
+```{r}
+a = int (input(""))
+b = int (input(""))
+c = int (input(""))
+if (a==b==c):
+    print ("iguales")
+elif (a>b) and (a>c):
+    print (a)
+elif (b>a) and (b>c):
+    print (b)
+elif (c>b) and (c>a):
+    print (c)
+if (a%2 == 0):
+    print (a)
+if (b%2 == 0):
+    print (b)
+if (c%2 == 0):
+    print (c)
+```
+
+### Semana 03
+
+- 3.00 Generar una serie de números.
+```{r}
+a = int (input(""))
+for i in range(0, a+1):
+    print(i)
+    print(i**2)
+```
+
+- 3.01 Modificar listas.
+```{r}
+a = eval (input(""))
+bc = str (input(""))
+c = int (input(""))
+a[0] = bc
+a.append (c)
+print(a)
+```
+
+- 3.02 Par o impar.
+```{r}
+a = int (input(""))
+if (a%2 == 0):
+    print ("par")
+    if (a%4 == 0):
+       print ("cuatro")
+    if (a%6 == 0):
+       print ("seis")
+else:
+    print ("impar")
+```
+
+- 3.03 Comparar números.
+```{r}
+a = int (input(""))
+b = int (input(""))
+if (a == b):
+    if(a%2 == 0) and (b%2 == 0):
+        c = (a**2)+(b**2)
+        print (c)
+    else:
+        d = (a*b)
+        print (d)
+else:
+    if (a <= b):
+        print(a)
+    else:
+        print (b)
+```
+
+- 3.04 Nota definitiva.
+```{r}
+a = float (input(""))
+b = float (input(""))
+if (a >= 3 and b >= 3):
+    print (round(((a+b)/2),1))
+else:
+    if (a>b):
+        a = a*0.25
+        b = b*0.75
+        print (round((a+b),1))
+    else:
+        a = a*0.75
+        b = b*0.25
+        print (round((a+b),1))
+```
+
+- 3.05 Escalas de un avión.
+```{r}
+a = int (input(""))
+b = str (input(""))
+if (b == "si"):
+    if (a < 1000):
+        print(1)
+    if (a > 3000):
+        print(3)
+    else:
+        print(2)
+if (b == "no"):
+    if (a < 600):
+        print(0)
+    if (a > 1800):
+        print(2)
+    else:
+        print(1)
+```
+
+- 3.06 Recomendación de viaje.
+```{r}
+a = str (input(""))
+b = int (input(""))
+if (a == "si"):
+    if (b > 25):
+        print ("Cartagena,Colombia")
+    else:
+        print ("Penco,Chile")
+else:
+    if (b > 25):
+        print ("Las vegas,USA")
+    else:
+        print ("Zurich,Suiza") 
+```
+
+- 3.07 Mensualidad de gimnasio.
+```{r}
+a = int (input(""))
+b = int (input(""))
+if (a == 1):
+    if (b <= 3):
+        print (100000)
+    if (b >= 6):
+        print (60000)
+    else:
+        print (80000)
+if (a == 2):
+    if (b <= 3):
+        print (120000)
+    if (b >= 6):
+        print (80000)
+    else:
+        print (100000)
+if (a == 3):
+    if (b <= 3):
+        print (160000)
+    if (b >= 6):
+        print (120000)
+    else:
+        print (140000)
+else:
+    print (200000)
+```
+
+- 3.08 Verificar si un número es primo.
+```{r}
+a = int (input(""))
+cont=0
+for i in range (1,a+1):
+    if (a%i == 0):
+        cont+=1 #verifica uno a uno si cumple
+if (cont > 2):
+    print ("no primo")
+else:
+    print ("primo")
+```
+
+- 3.09 Calcular el factorial de un número.
+```{r}
+a = int (input(""))
+acu=1
+for i in range (1,a+1):
+    acu*=i
+print (acu)
+```
+
+- 3.10 Múltiplos de cinco.
+```{r}
+c = 0
+a = int (input(""))
+b = int (input(""))
+if (a>b):
+    for i in range (b,a+1,1):
+        if (i%5 == 0):
+            c+=1
+            print (i)
+if (b>a):
+    for j in range (a,b+1,1):
+        if (j%5 == 0):
+            c+=1
+            print (j)
+print (c)
+```
+
+- 3.11 Iteraciones con listas.
+```{r}
+a = eval (input(""))
+s = 0
+m = 1
+for i in a:
+    if (i%2 == 0):
+        s+=i
+    else:
+        m*=i
+print (s)
+print (m)
+```
+
+
+### Semana 04
+
+- 4.00 Mi primera función.
+```{r}
+def sumas (x,y,z):
+    s = x+y-z
+    print (s)
+    return sumas
+a =int (input(""))
+b =int (input(""))
+c =int (input(""))
+sumas (a, b, c)
+```
+
+- 4.01 Área superficial de un cubo.
+```{r}
+def ases(x):
+    c = 6*(x**2)
+    print (c)
+    return ases
+a = int (input(""))
+ases(a)
+```
+
+- 4.02 Volumen de un tanque cilíndrico.
+```{r}
+def vol (x,y):
+    c = x/2
+    calc = 3.14*(c**2)*y
+    print (calc)
+    return vol
+a = float (input(""))
+b = float (input(""))
+vol (a, b)
+```
+
+- 4.03 Índice de masa corporal.
+```{r}
+def imc (x,y):
+    calc = x/(y**2)
+    print (round (calc,2))
+    return imc
+a = float (input(""))
+b = float (input(""))
+imc (a,b)
+```
+
+- 4.04 Costo de vuelo.
+```{r}
+def cpv (x,y,z):
+    calc = (x + y)*z
+    print (calc)
+    return cpv
+a = int (input(""))
+b = int (input(""))
+c = int (input(""))
+cpv (a, b ,c )
+```
+
+
+### Semana 05
+
+- 5.00 Suma de cuadrados.
+```{r}
+nom = str(input(""))
+arc = open(nom,"r")
+a = int (arc.readline())
+c1 = a**2
+b = int (arc.readline())
+c2 = b**2
+print (c1+c2)
+```
+
+- 5.01 Crear listas a partir de datos de un archivo.
+```{r}
+l1 = []
+l2 = []
+nom = str (input(""))
+arc = open(nom,"r")
+a = int (arc.readline())
+ca1 = a**(1/2)
+ca2 = a**2
+l1.append(a)
+l1.append("%.2f"% ca1)
+l1.append(ca2)
+b = int (arc.readline())
+cb1 = b**(1/2)
+cb2 = b**2
+l2.append(b)
+l2.append("%.2f"%cb1)
+l2.append(cb2)
+print (l1)
+print (l2)
+```
+
+- 5.02 Diámetro de un círculo.
+```{r}
+nom  = str(input(""))
+arch = open(nom,"r")
+a = int (arch.readline())
+calc = a/3.14
+print (round(calc,2))
+```
+
+- 5.03 Pendiente entre dos puntos.
+```{r}
+nom = str (input(""))
+arch = open (nom,"r")
+a = eval (arch.readline())
+b = eval (arch.readline())
+calc1 = b[1] - a[1]
+calc2 = b[0] - a[0]
+print (round((calc1/calc2),2))
+```
+
+- 5.04 Promedio de listas.
+```{r}
+nom = str (input(""))
+arch = open(nom,"r")
+a = eval(arch.readline())
+b = eval(arch.readline())
+calc1 = (a[0]+a[1]+a[2])/3
+calc2 = (b[0]+b[1]+b[2])/3
+print (round(calc1,2))
+print (round(calc2,2))
+```
+
+- 5.05 Volumen de esfera y cubo.
+```{r}
+nom = str (input(""))
+arch = open (nom,"r")
+s = 0
+a = eval (arch.readline())
+for i in a:
+    if (i%2==0):
+        calc1 = i**3
+        print(round(calc1,2))
+    else:
+        calc2 = (i**3)*(4/3)*(3.14)
+        print(round(calc2,2))
+```
+
+- 5.06 Números perfectos.
+```{r}
+a = int (input(""))
+s = 0
+for i in range(1,a):
+    if (a%i==0):
+        s+=i
+if (s==a):
+    print("perfecto")
+else:
+    print ("no perfecto")
+```
+
+- 5.07 Suma de cosenos.
+```{r}
+import math
+a = int (input(""))
+s = 0
+while (a >= 0):
+    s+=math.cos(a)
+    a = int (input(""))
+print(round(s,2))
+```
+
+- 5.08 Áreas de triángulos.
+```{r}
+a = eval (input(""))
+s = 0
+while (a[0]>0 and a[1]>0):
+    clac1 = (a[0]*a[1])/2
+    print (round(clac1,2))
+    a = eval (input(""))
+```
+
+- 5.09 Ganancia promedio en ventas.
+```{r}
+a = int (input(""))
+c = 0
+ac = 0
+while (a > 0):
+    calc = a*5000
+    c = c+1
+    ac = ac + calc
+    a = int (input(""))
+print (round((ac/c),2))
+```
+
+### Semana 06
+
+- 6.00 Manejo de textos.
+```{r}
+a = input("")
+b = input("")
+if (a.isalpha()== False) or (b.isalpha()== False):
+    print("Error")
+else:
+    a = a.upper()
+    b = b.upper()
+    print(a+b[0:len(b)-1])
+```
+
+- 6.01 Área de figuras.
+```{r}
+a= input("")
+if a == "triangulo":
+    b = float(input(""))
+    c = float(input(""))
+    ar = (b*c)/2.0
+    print(round(ar,2))
+elif a == "circulo":
+    b = float(input(""))
+    ar = (3.1416)*(b**2)
+    print(round(ar,2))
+elif a == "cuadrado":
+    b = float(input(""))
+    ar = b**2
+    print(int(ar))
+elif a == "rectangulo":
+    b = float(input(""))
+    c = float(input(""))
+    ar = (b*c)
+    print(int(ar))
+else:
+    print("error")
+```
+
+- 6.02 Identificar tipo de letra.
+```{r}
+c = input("")
+if c == "a" or c == "e" or c == "i" or c == "o" or c == "u":
+    print("es vocal")
+else:
+    print("no es vocal")
+```
+
+- 6.03 Actividades del día.
+```{r}
+a = int(input(""))
+b = input("")
+if 7<= a <=11:
+    if b == "lluvioso":
+        print("leer")
+    elif b == "soleado":
+        print("piscina")
+elif 12<= a <=19:
+    if b == "lluvioso":
+        print("video juegos")
+    elif b == "soleado":
+        print("deporte")
+else:
+    print("dormir")
+```
+
+- 6.04 Calcular ganancia de inmobiliaria.
+```{r}
+a = int(input(""))
+b = input("")
+if b =="alquiler":
+    c = a*1000
+    print(c)
+elif b == "venta":
+    if a > 100:
+        c = a*100000
+        print(c)
+    else:
+        c = a*50000
+        print(c)
+```
+
+- 6.05 Costo del transporte.
+```{r}
+a= int(input(""))
+b = input("")
+if b == "bus":
+    print(2000)
+elif b =="bicicleta":
+    print(0)
+elif b =="taxi":
+    if a <3500:
+        print(4600)
+    else:
+        c = a-3500
+        d = 4600 + c
+        print (d)
+```
+
+- 6.06 Costo de llantas.
+```{r}
+a=  input("")
+b = int(input(""))
+valor = 0
+if a == "camioneta":
+    calc = b*200000.0
+    if b > 2:
+        calc=calc*(0.7)
+        print (int(calc))
+    else:
+        print(int(calc))
+if a == "automovil":
+    calc = b*150000.0
+    if b > 2:
+        calc=calc*(0.7)
+        print (calc)
+    else:
+        print(calc)
+if a == "cuatrimoto":
+    calc = b*120000.0
+    if b > 2:
+        calc=calc*(0.7)
+        print (calc)
+    else:
+        print(calc)
+if a == "moto":
+    calc = b*100000.0
+    if b > 2:
+        calc=calc*(0.7)
+        print (calc)
+    else:
+        print(calc)
+if a == "bicicleta":
+    calc = b*50000.0
+    if b > 2:
+        calc=calc*(0.7)
+        print (calc)
+    else:
+        print(int(calc))
+```
+
+- 6.07 Contaminación por vehículo.
+```{r}
+nom = input("")
+arc = open(nom,"r")
+li = arc.readlines()
+gas = 0.0
+dis = 0.0
+for i in range(0,len(li),2):
+    a = li[i].strip("\n")
+    b = float(li[i+1])
+    if a == "diesel":
+        dis+=b*(26.1)
+    elif a =="gasolina":
+        gas+=b*(23.0)
+print(round(dis,1))
+print(int(gas))
+```
+
+
+### Semana 07
+
+- 7.00 Promedio de filas de una matriz cuadrada
+```{r}
+import numpy as np
+a = eval(input(""))
+c = np.mean(a, axis =1)
+d = np.round(c,2).tolist()
+print(d)
+```
+
+- 7.01 Nota promedio por asignatura
+```{r}
+a = eval(input(""))
+for i in a:
+    sum=0
+    a = i[0]
+    i = i[1:]
+    b = len (i)
+    for e in i:
+        sum+=e/b
+    l.append(sum)
+    print(a,round(sum,1))
+```
+
+- 7.02 Consumo total de agua en conjunto residencial
+```{r}
+a = eval(input(""))
+sum = 0
+for i in a:
+    for e in i:
+        sum+=e
+print(sum)
+```
+
+- 7.03 Tiempo en competencia
+```{r}
+a = eval(input(""))
+for i in a:
+    a = i[0]
+    i = i[1:]
+    mini = min(i)
+    print(a,mini)
+```
+
+
+- 7.04 Contar números en una matriz 
+```{r}
+a = int(input(""))
+b = eval(input(""))
+cont = 0
+for i in b:
+    for e in i:
+        if e < a:
+            cont+= 1
+print(cont)
+```
+
+- 7.05 Tiempos de procesos en una fábrica 
+```{r}
+a = eval(input(""))
+for i in a:
+    sum=0
+    a= i[0]
+    i= i[1:]
+    b= len (i)
+    for e in i:
+        sum+=e/b
+    print(a,round(sum,2))
+```
+
+- 7.06 Identificar un estudiante
+```{r}
+a = eval(input(""))
+P = a[:]
+A = []
+for i in range(len(P)):
+    for j in range (1,len(P[i])):
+        for k in range (j,len(P[i])):
+            if P[i][k]<P[i][j]:
+                su = P[i][j]
+                P[i][j]=P[i][k]
+                P[i][k]=su
+for i in range (len(P)):
+    A.append(P[i][len(P[i])-1])
+for i in range (0,len(A)):
+    for k in range (i,len(A)):
+        if A[k]<A[i]:
+            su = A[i]
+            A[i]=A[k]
+            A[k]=su
+for i in range (len(a)):
+    if A[len(A)-1] in a[i]:
+        print(a[i][0])
+        break
+```
+
+- 7.07 Control de compras en un supermercado
+```{r}
+y = eval(input(""))
+w = eval(input(""))
+for i in range(len(w)):
+  for j in range(len(y)):
+    if w[i]==y[j]['id']:
+      print(y[j]['productos'])
+```
+
+- 7.08 Cantidad de pasajeros
+```{r}
+a = eval (input(""))
+sum = 0
+for i in a:
+    for e in i:
+        sum+=e
+print(sum)
+```
+
+- 7.09 Transpuesta de una matriz 
+```{r}
+import numpy as np
+a = eval(input(""))
+b = np.transpose(a)
+print(b)
+```
+
+
+### Semana 08
+
+- 8.00 Factorial de un número 
+```{r}
+#Archivo factorial.py
+def fact(x):
+    acu = 1
+    for i in range (1,x+1):
+        acu*=i
+    return(acu)
+
+#Archivo main.py
+from factorial import fact
+a = int(input(""))
+b = fact(a)
+print(b)
+```
+
+- 8.01 Sumatoria
+```{r}
+#Archivo suma.py
+def sumar(x,y):
+    sum1 = 0
+    res = 0 
+    for i in range(x,y+1):
+        if i%2 == 0:
+            sum1+=i
+        else:
+            res-=i
+    return(sum1,res)
+    
+#Archivo main.py
+from suma import sumar
+a = int(input(""))
+b = int(input(""))
+c = sumar(a,b)
+print(c)
+```
+
+- 8.02 Equivalencia de divisas
+```{r}
+#Archivo conversor.py
+def conversion(x,y):
+    if x =="euro":
+        c = y*0.00029
+        c =round(c,2)
+        return(c,"EUR")
+    if x =="dolar":
+        c = y*0.00033
+        c =round(c,2)
+        return(c,"USD")
+    if x =="yen":
+        c = y*0.0368
+        c =round(c,2)
+        return(c,"JPY")
+    if x =="real":
+        c = y*0.0012
+        c =round(c,2)
+        return(c,"BRL")
+        
+#Archivo main.py
+import conversor
+x = str(input(""))
+y = int(input(""))
+c = conversor.conversion(x,y)
+print(c)
+```
+
+- 8.03 Diferencia de áreas 
+```{r}
+#Archivo area.py
+def dif(x):
+    f = max(x)
+    k = min(x)
+    s = (f**2)*(3.14)
+    l = (k**2)*(3.14)
+    p = s-l
+    return round(p,2)
+    
+#Archivo main.py
+from area import dif
+x = eval(input(""))
+z = dif(x)
+print(z)
+```
+
+- 8.04 Búsqueda de números primos 
+```{r}
+#Archivo primo.py
+def esprimo(x):
+    cont=0
+    for i in range(1,x+1):
+        if (x%i==0):
+            cont+=1
+    if cont > 2:
+        return("False")
+    else:
+        return("True")
+
+#Archivo main.py
+from primo import esprimo
+a = eval(input(""))
+l = []
+for i in a:
+    if esprimo(i) == "True":
+        l.append(i)
+    else:
+        while esprimo(i)=="False":
+            i+=1
+        l.append(i)
+print(l)
+```
+
+- 8.05 Matriz identidad 
+```{r}
+import numpy as np
+def iden(x):
+    a = np.identity(x)
+    return(a)
+
+#Archivo main.py
+from identidad import iden
+a = int(input(""))
+b = iden(a)
+print(b)
+```
+
+- 8.06 Suma de matrices 
+```{r}
+#Archivo suma.py
+import numpy as np
+def sumar(x,y):
+    x = np.array(x)
+    y = np.array(y)
+    b = x + y
+    return(b)
+    
+#Archivo main.py
+from suma import sumar
+a = eval(input(""))
+b = eval(input(""))
+c = sumar(a,b)
+print(c)
+```
+
+- 8.07 Determinante de matriz triangular 
+```{r}
+#Archivo determinante.py
+import numpy as np
+def det(x):
+    b = np.diag(x)
+    c = np.prod(b)
+    return(c)
+    
+#Archivo main.py
+from determinante import det
+a = eval(input(""))
+b = det(a)
+print(b)
+```
+
+- 8.08 Multiplicar una matriz por un escalar 
+```{r}
+#Archivo escalar.py
+import numpy as np
+def esc(x,y):
+    a = np.multiply(x,y)
+    return(a)
+
+#Archivo main.py
+from escalar import esc
+a = eval(input(""))
+b = int(input(""))
+c = esc(a,b)
+print(c)
+```
+
+- 8.09 Producto de matrices
+```{r}
+#Archivo producto.py
+import numpy as np
+def prod(x,y):
+    a = np.dot(x,y)
+    return(a)
+
+#Archivo main.py
+from producto import prod
+a = eval(input(""))
+b = eval(input(""))
+w = prod(a,b)
+print (w)
+```
+
+
+### Semana 09
+
+- 9.00 Suma de factoriales
+```{r}
+import math as mt
+a = eval(input(""))
+b = 0
+for i in a:
+    a = mt.factorial(i)
+    b+=a
+print(b)
+```
+
+- 9.01 Suma de números primos
+```{r}
+a = eval(input(""))
+l=[]
+for i in a:
+    b = i[0]
+    c = i[1]
+    calc = c/b
+    if calc>3:
+        l.append(100000)
+    else:
+        l.append(0)
+print(l)
+```
+
+- 9.02 Multa por consumo de energía
+```{r}
+a = eval(input(""))
+l=[]
+for i in a:
+    b = i[0]
+    c = i[1]
+    calc = c/b
+    if calc>3:
+        l.append(100000)
+    else:
+        l.append(0)
+print(l)
+```
+
+- 9.03 Calcular volumen de un cubo
+```{r}
+import numpy as np
+a = eval(input(""))
+b = np.multiply(a,(1/3.14))
+l = []
+for i in b:
+    i=round((i**3),2)
+    l.append(i)
+print(l)
+```
+
+- 9.04 Lista de ventas con descuento
+```{r}
+a=eval(input(""))
+l = []
+for i in a:
+    if i > 300000.0:
+        i*=0.6
+        l.append(round(i,2))
+    elif i<100000.0:
+        i*=0.95
+        l.append(round(i,2))
+    else:
+        i*=0.80
+        l.append(round(i,2))
+print(l)
+```
+
+- 9.05 Verificar si se puede hacer descuento a productos
+```{r}
+a = eval(input(""))
+l = []
+for i in a:
+    if i[1]> 300000.0:
+        a = (i[1])*0.80
+        b = a - i[0]
+        l.append(round(b,2))
+    elif i[1] < 100000.0:
+        a = (i[1])*0.95
+        b = a - i[0]
+        l.append(round(b,2))
+    else:
+        a = (i[1])*0.90
+        b = a - i[0]
+        l.append(round(b,2))
+print(l)
+```
+
+- 9.06 Calcular área de un rectángulo
+```{r}
+def primo(x):
+    cont = 0
+    for i in range(1,1+x):
+        if x%i==0:
+            cont+=1
+    if cont>2:
+        return("no")
+    else:
+        return("si")
+a = int(input(""))
+b = a
+while True:
+    b+=1
+    if primo(b)=="si":
+        break
+d = b*a
+print(d)
+```
+
+- 9.07 Calcular producto de números en un rango
+```{r}
+def primo(x):
+    cont=0
+    for i in range(1,1+x):
+        if x%i==0:
+            cont+=1
+    if cont>2:
+        return("no")
+    else:
+        return("si")
+a=int(input(""))
+b = a
+prod=1
+while True:
+    b+=1
+    if primo(b)=="si":
+        break
+for i in range(a,b+1):
+    prod*=i
+print(prod)
+```
+
+- 9.08 Calcular promedio de números primos 
+```{r}
+def primo(x):
+    cont=0
+    for i in range(1,x+1):
+        if x%i==0:
+            cont+=1
+    if cont>2:
+        return("no")
+    else:
+        return("si")
+a = int(input(""))
+b = a+1
+cont=0
+suma = 0
+while cont<10:
+    if primo(b)=="si":
+        cont+=1
+        suma+=b
+    b+=1
+c = suma/10.0
+print(round(c,2))
+```
+
+- 9.09 Lista de números primos
+```{r}
+def primo(x):
+    cont=0
+    for i in range(1,x+1):
+        if x%i==0:
+            cont+=1
+    if cont >2:
+        return("no")
+    else:
+        return("si")
+a = int(input(""))
+b = a+1
+l = []
+while True:
+    if b%20==0:
+        c= b
+        break
+    b+=1
+for i in range(a,c+1):
+    if primo(i)=="si":
+        l.append(i)
+print(l)
+```
+
+
+### Semana 10
+
+- 10.00 Fibonacci
+```{r}
+a = int(input(""))
+c1 = 1
+c2 = 0
+for i in range(a):
+    b=c1+c2
+    c2=c1
+    c1=b
+print(c2)
+```
+
+- 10.01 Ordenar una lista de forma ascendente 
+```{r}
+a = eval(input(""))
+b = sorted(a)
+print(b)
+```
+
+- 10.02 Sumar n terminos de una lista
+```{r}
+import numpy as np
+a = eval(input(""))
+b = int (input(""))
+c = a[:b]
+d = np.sum(c)
+print(d)
+```
+
+- 10.03 Convertir entero en binario
+```{r}
+a = int(input(""))
+b = bin(a)
+c = int(b[2:])
+print(c)
+```
+
+- 10.04 Máximo común divisor
+```{r}
+import math as mt
+a = int(input(""))
+b = int(input(""))
+c= mt.gcd(a,b)
+print(c)
+```
+
+- 10.05 Invertir lista
+```{r}
+a=eval(input(""))
+a.reverse()
+print(a)
+```
+
+- 10.06 Verificar si es palindromo
+```{r}
+a = str(input(""))
+b = a[::-1]
+if a == b:
+    print(a)
+else:
+    print("error")
+```
+
+- 10.07 Área del triangulo
+```{r}
+import numpy as np
+a = eval(input(""))
+l=[]
+for i in a:
+    b= (np.prod(i))/2
+    l.append(b)
+print(l)
+```
+
+- 10.08 Calificación promedio
+```{r}
+import numpy as np
+a = eval(input(""))
+b= np.mean(a,axis=0).tolist()
+print(round(b[1],2))
+```
+
+- 10.09 Consumo de agua 
+```{r}
+a= eval(input(""))
+for i in a:
+    if i[1]>40:
+        print(i[0])
+```
+
+

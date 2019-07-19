@@ -20,6 +20,8 @@ navbar:
           href: Física.html
         - text: "Matemáticas"
           href: Matemáticas.html
+        - text: Programación
+          href: Programación.html
         - text: "Química"
           href: Química.html
   right:
