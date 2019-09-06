@@ -7,6 +7,8 @@ output:
     toc_depth: 3
     df_print: paged
     css: estilo.css
+bibliography: biblio.bib
+biblio-style: apsr
 ---
 <br>
 
@@ -18,9 +20,16 @@ El material puede presentar errores, por favor sea crítico con él.
 - Solucion Simulacros: <a href="Documentos/Simulacros est.pdf" class="download" title="Simulacros"target="_blank"> Descarga</a> 
 - Guia Para trabajos: <a href="Documentos/Trabajos est.pdf" class="download" title="Trabajos"target="_blank"> Descarga</a> 
 - Resumen Parcial 2: <a href="Documentos/Parcial 2 est.pdf" class="download" title="Parcial 2"target="_blank"> Descarga</a> 
--  Solucionario Probabilidad y Estádistica Jay L. Devore 8th: <a href="https://www.slader.com/textbook/9780538733526-probability-and-statistics-for-engineering-and-the-sciences-8th-edition/" target="_blank">Enlace</a>
+-  Solucionario Probabilidad y Estádistica Jay L. Devore 8th. @devore2008: <a href="https://www.slader.com/textbook/9780538733526-probability-and-statistics-for-engineering-and-the-sciences-8th-edition/" target="_blank">Enlace</a>
 
 <br>
 
 # **Estadistica 2**
 
+- Apuntes: <a href="Documentos/Resumen est2.pdf" class= "download" title= "Apuntes2" target="_blank" > Descarga </a>
+- Resumen Muestreo: <a href="Documentos/Muestreo est2.pdf" class="download" title="Muestreo"target="_blank"> Descarga</a> 
+- RLS en Calculadora: <a href="Documentos/Calc est2.pdf" class="download" title="RLS Calc"target="_blank"> Descarga</a> 
+
+<br>
+
+# **Bibliografía**

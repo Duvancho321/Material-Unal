@@ -7,6 +7,8 @@ output:
     toc_depth: 3
     df_print: paged
     css: estilo.css
+bibliography: biblio.bib
+biblio-style: apsr
 ---
 
 ```{r setup, include=FALSE}
@@ -16,12 +18,17 @@ knitr::opts_chunk$set(echo = TRUE)
 <br>
 
 # **Física Mecánica**
+- Libro Física Mecánica. @VegaLondono2003: <a href="http://bdigital.unal.edu.co/4344/1/8302166.2003.pdf" target="_blank">Enlace</a>
 - Taller 1 - Estática: <a href="Documentos/TALLER 1 FM.pdf" class="download" title="Taller 1"target="_blank"> Descarga</a>
 - Taller 2 - Dinámica: <a href="Documentos/TALLER 2 FM.pdf" class="download" title="Taller 2"target="_blank"> Descarga</a>
 - Taller 3 - Trabajo Y Energía: <a href="Documentos/TALLER 3 FM.pdf" class="download" title="Taller 3"target="_blank"> Descarga</a>
 - Taller 4 - Dinámica Partículas Y Cuerpos Rígidos: <a href="Documentos/TALLER 4 FM.pdf" class="download" title="Taller 4"target="_blank"> Descarga</a>
-- Solucionario Física Serway 9th: <a href="https://www.slader.com/textbook/9781133947271-physics-for-scientists-and-engineers-with-modern-physics-ninth-edition/" target="_blank">Enlace</a>
+- Resumen Tercer Parcial: <a href="Documentos/Resumen3 FM.pdf" class="download" title="Res3"target="_blank"> Descarga</a>
+- Solucionario Libro Mario Felipe. @CoyGranados2009: <a href="Documentos/SolMF FM.pdf" class="download" title="Solucionario MariO Felipe "target="_blank"> Descarga</a>
+- Solucionario Física Serway 9th. @serway2018p: <a href="https://www.slader.com/textbook/9781133947271-physics-for-scientists-and-engineers-with-modern-physics-ninth-edition/" target="_blank">Enlace</a>
 
 
+<br>
 
+# **Bibliografía**
 

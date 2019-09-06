@@ -7,6 +7,7 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -25,9 +26,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/pagedtable-1.1/css/pagedtable.css" rel="stylesheet" />
 <script src="site_libs/pagedtable-1.1/js/pagedtable.js"></script>
-<link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
-<script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
-<script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
 
 
@@ -61,9 +61,7 @@ h6 {
 
 <link rel="stylesheet" href="estilo.css" type="text/css" />
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -88,6 +86,9 @@ img {
 button.code-folding-btn:focus {
   outline: none;
 }
+summary {
+  display: list-item;
+}
 </style>
 
 
@@ -102,7 +103,6 @@ body {
   padding-top: 56px;
   margin-top: -56px;
 }
-
 .section h2 {
   padding-top: 56px;
   margin-top: -56px;
@@ -122,6 +122,43 @@ body {
 .section h6 {
   padding-top: 56px;
   margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -143,47 +180,65 @@ $(document).ready(function () {
 });
 </script>
 
-
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-</script>
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
 
 <!-- code folding -->
 
 
-
-
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <style type="text/css">
 
@@ -232,8 +287,6 @@ div.tocify {
 
 .tocify-subheader .tocify-item {
   font-size: 0.90em;
-  padding-left: 25px;
-  text-indent: 0;
 }
 
 .tocify .list-group-item {
@@ -242,6 +295,16 @@ div.tocify {
 
 
 </style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
 <div class="row-fluid">
@@ -360,19 +423,43 @@ div.tocify {
 <div id="quimica-general" class="section level1">
 <h1><strong>Química General</strong></h1>
 <ul>
-<li>Solucionario Química Raymond Chang 10th: <a href="https://www.slader.com/textbook/9780073511092-chemistry-10th-edition/" target="_blank">Enlace</a></li>
-<li>Solucionario Química General Petrucci 10th: <a href="https://www.slader.com/textbook/9780132064521-general-chemistry-principles-and-modern-applications-tenth-edition/" target="_blank">Enlace</a></li>
-<li>Solucionario Química Brown 12th: <a href="https://www.slader.com/textbook/9780321696724-chemistry-the-central-science-12th-edition/" target="_blank">Enlace</a></li>
+<li>Solucionario Química Raymond Chang 10th. <span class="citation">Chang and Goldsby (2013)</span>: <a href="https://www.slader.com/textbook/9780073511092-chemistry-10th-edition/" target="_blank">Enlace</a></li>
+<li>Solucionario Química General Petrucci 10th. <span class="citation">Petrucci et al. (2011)</span>: <a href="https://www.slader.com/textbook/9780132064521-general-chemistry-principles-and-modern-applications-tenth-edition/" target="_blank">Enlace</a></li>
+<li>Solucionario Química Brown 12th. <span class="citation">Brown et al. (2004)</span>: <a href="https://www.slader.com/textbook/9780321696724-chemistry-the-central-science-12th-edition/" target="_blank">Enlace</a></li>
 </ul>
 <p><br></p>
 </div>
 <div id="quimica-organica" class="section level1">
 <h1><strong>Química orgánica</strong></h1>
 <ul>
-<li>Solucionario Química Orgánica McMurry 8th: <a href="https://www.slader.com/textbook/9780840054449-organic-chemistry-8th-edition/" target="_blank">Enlace</a></li>
-<li>Solucionario Química Orgánica Paula Yurkanis 8th: <a href="https://www.slader.com/textbook/9780134042282-organic-chemistry-8th-edition/" target="_blank">Enlace</a></li>
-<li>Solucionario Química Orgánica L.G. Wade Jr 8th: <a href="https://www.slader.com/textbook/9780321768414-organic-chemistry-eigth-edition/" target="_blank">Enlace</a></li>
+<li>Solucionario Química Orgánica McMurry 8th. <span class="citation">McMurry (2012)</span>: <a href="https://www.slader.com/textbook/9780840054449-organic-chemistry-8th-edition/" target="_blank">Enlace</a></li>
+<li>Solucionario Química Orgánica Paula Yurkanis 8th. <span class="citation">Yurkanis Bruice (2007)</span>: <a href="https://www.slader.com/textbook/9780134042282-organic-chemistry-8th-edition/" target="_blank">Enlace</a></li>
+<li>Solucionario Química Orgánica L.G. Wade Jr 8th. <span class="citation">Wade (2012)</span>: <a href="https://www.slader.com/textbook/9780321768414-organic-chemistry-eigth-edition/" target="_blank">Enlace</a></li>
 </ul>
+<p><br></p>
+</div>
+<div id="bibliografia" class="section level1 unnumbered">
+<h1><strong>Bibliografía</strong></h1>
+<div id="refs" class="references">
+<div id="ref-Bursten2004">
+<p>Brown, Theodore L., H. Eugene LeMaey Jr, Bruce E. Bursten, and Julia R. Burdge. 2004. <em>Química La ciencia central</em>. Edited by PEARSON EDUCACIÓN. 9th ed. México.</p>
+</div>
+<div id="ref-Chang2013">
+<p>Chang, Raymond, and Kenneth A Goldsby. 2013. <em>Química</em>. 11th ed. McGraw-Hill Education.</p>
+</div>
+<div id="ref-McMurry2012">
+<p>McMurry, Jhon. 2012. <em>Química orgánica</em>. 8th ed. México: Cengage Learning.</p>
+</div>
+<div id="ref-Petrucci2011">
+<p>Petrucci, Ralph H., F: Geoffrey Herring, Jeffry D. Madura, and Carey Bissonnnette. 2011. <em>Química General</em>. Edited by PEARSON EDUCACIÓN. 10th ed. Madrid, España.</p>
+</div>
+<div id="ref-Wade2012">
+<p>Wade, Leroy. 2012. <em>Química orgánica. Volumen 1</em>. Edited by España Pearson Prentice Hall. 7th ed.</p>
+</div>
+<div id="ref-Yurkanis2007">
+<p>Yurkanis Bruice, Paula. 2007. <em>Química orgánica</em>. 5th ed. México: México, Prentice Hall.</p>
+</div>
+</div>
 </div>
 
 
@@ -393,6 +480,49 @@ $(document).ready(function () {
 });
 
 
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
 </script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->

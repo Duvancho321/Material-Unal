@@ -7,6 +7,8 @@ output:
     toc_depth: 3
     df_print: paged
     css: estilo.css
+bibliography: biblio.bib
+biblio-style: apsr
 ---
 
 ```{r setup, include=FALSE}
@@ -25,17 +27,21 @@ Compoundchem  | <a href="https://www.compoundchem.com/" target="_blank" title="C
 <br>
 
 # **Química General**
-- Solucionario Química Raymond Chang 10th: <a href="https://www.slader.com/textbook/9780073511092-chemistry-10th-edition/" target="_blank">Enlace</a>
-- Solucionario Química General Petrucci 10th: <a href="https://www.slader.com/textbook/9780132064521-general-chemistry-principles-and-modern-applications-tenth-edition/" target="_blank">Enlace</a>
-- Solucionario Química Brown 12th: <a href="https://www.slader.com/textbook/9780321696724-chemistry-the-central-science-12th-edition/" target="_blank">Enlace</a>
+- Solucionario Química Raymond Chang 10th. @Chang2013: <a href="https://www.slader.com/textbook/9780073511092-chemistry-10th-edition/" target="_blank">Enlace</a>
+- Solucionario Química General Petrucci 10th. @Petrucci2011: <a href="https://www.slader.com/textbook/9780132064521-general-chemistry-principles-and-modern-applications-tenth-edition/" target="_blank">Enlace</a>
+- Solucionario Química Brown 12th. @Bursten2004: <a href="https://www.slader.com/textbook/9780321696724-chemistry-the-central-science-12th-edition/" target="_blank">Enlace</a>
 
 <br>
 
 # **Química orgánica**
 
-- Solucionario Química Orgánica McMurry 8th: <a href="https://www.slader.com/textbook/9780840054449-organic-chemistry-8th-edition/" target="_blank">Enlace</a>
-- Solucionario Química Orgánica Paula Yurkanis 8th: <a href="https://www.slader.com/textbook/9780134042282-organic-chemistry-8th-edition/" target="_blank">Enlace</a>
-- Solucionario Química Orgánica L.G. Wade Jr 8th: <a href="https://www.slader.com/textbook/9780321768414-organic-chemistry-eigth-edition/" target="_blank">Enlace</a>
+- Solucionario Química Orgánica McMurry 8th. @McMurry2012: <a href="https://www.slader.com/textbook/9780840054449-organic-chemistry-8th-edition/" target="_blank">Enlace</a>
+- Solucionario Química Orgánica Paula Yurkanis 8th. @Yurkanis2007: <a href="https://www.slader.com/textbook/9780134042282-organic-chemistry-8th-edition/" target="_blank">Enlace</a>
+- Solucionario Química Orgánica L.G. Wade Jr 8th. @Wade2012: <a href="https://www.slader.com/textbook/9780321768414-organic-chemistry-eigth-edition/" target="_blank">Enlace</a>
 
+
+<br>
+
+# **Bibliografía**
 
 
