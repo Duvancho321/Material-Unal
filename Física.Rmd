@@ -18,7 +18,7 @@ knitr::opts_chunk$set(echo = TRUE)
 <br>
 
 # **Física Mecánica**
-- Libro Física Mecánica. @VegaLondono2003: <a href="http://bdigital.unal.edu.co/4344/1/8302166.2003.pdf" target="_blank">Enlace</a>
+- Libro Física Mecánica "Mario Felipe". @VegaLondono2003: <a href="http://bdigital.unal.edu.co/4344/1/8302166.2003.pdf" target="_blank">Enlace</a>
 - Taller 1 - Estática: <a href="Documentos/TALLER 1 FM.pdf" class="download" title="Taller 1"target="_blank"> Descarga</a>
 - Taller 2 - Dinámica: <a href="Documentos/TALLER 2 FM.pdf" class="download" title="Taller 2"target="_blank"> Descarga</a>
 - Taller 3 - Trabajo Y Energía: <a href="Documentos/TALLER 3 FM.pdf" class="download" title="Taller 3"target="_blank"> Descarga</a>
