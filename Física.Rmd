@@ -27,6 +27,7 @@ knitr::opts_chunk$set(echo = TRUE)
 - Solucionario Libro Mario Felipe. @CoyGranados2009: <a href="Documentos/SolMF FM.pdf" class="download" title="Solucionario MariO Felipe "target="_blank"> Descarga</a>
 - Solucionario Física Serway 9th. @serway2018p: <a href="https://www.slader.com/textbook/9781133947271-physics-for-scientists-and-engineers-with-modern-physics-ninth-edition/" target="_blank">Enlace</a>
 
+**Nota:** Los solucionarios de los talleres se encuentran en la fotocopiadora del bloque 21.
 
 <br>
 
