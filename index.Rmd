@@ -11,8 +11,8 @@ _“El diseño, propiedad y autoría de los parciales, simulacros, talleres y/o 
 
 Este sitio contiene información de algunos cursos de la universidad nacional sede Medellín, el material dado está sujeto a errores semánticos, procedimentales y a la interpretación del interesado.  
 
-```{r, echo=FALSE, out.width= "100", out.height="80",fig.align='center'}
-knitr::include_graphics("portada.png")
+```{r, echo=FALSE, out.width= "80", out.height="100",fig.align='center'}
+knitr::include_graphics("Portada.png")
 ```
   
 
