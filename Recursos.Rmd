@@ -24,7 +24,7 @@ Los recursos a continuación son de libre acceso o gratis para estudiantes.
 +================================+===============+
 | Artículos Científicos          | <a href="https://sci-hub.se/" target="_blank" title="Busque con DOI o link">Sci-Hub</a>         |
 +--------------------------------+---------------+
-| Libros, Manuales y Más         |  <a href="http://libgen.io/" target="_blank" title="Busque por nombre y/o autor">LibGen</a>         |
+| Libros, Manuales y Más         |  <a href="http://libgen.is/" target="_blank" title="Busque por nombre y/o autor">LibGen</a>         |
 +--------------------------------+---------------+
 | Libros Acceso Abierto          | <a href="https://libros.metabiblioteca.org/" target="_blank" title="Busque por nombre y/o autor">Metabiblioteca</a>         |
 +--------------------------------+---------------+
